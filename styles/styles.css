@@ -1,0 +1,39 @@
+.imagem-carrossel-um {
+    height: 400px;
+    object-fit: cover; /* isso faz com que a imagem fique com a visualização original independente do tamanho*/
+    object-position: 0 20%; /*Isso faz o posicionamento da imagem mais para cima ou baixo y(20%) e para os lados x(0%)*/
+}
+.imagem-carrossel-dois {
+    height: 400px;
+    object-fit: cover;
+}
+
+.titulo-carrossel {
+    font-family: 'Pacifico', cursive;
+}
+
+.titulo-conteudo {
+    font-family: 'Pacifico', cursive;
+    color: darkred!important
+}
+.card {
+    border-color: darkred;
+}
+
+.card-largura {
+    max-width: 18rem;
+}
+
+.card-imagem {
+    object-fit: cover;
+    height: 200px;
+}
+
+.card .btn {
+    background-color: darkred;
+    color: white;
+}
+
+.botao-enviar {
+    background-color: darkred;
+}
